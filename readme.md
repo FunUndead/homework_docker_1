@@ -3,16 +3,27 @@
 [Скриншот к заданию](https://github.com/FunUndead/homework_docker_1/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_2.png)
 
 ## Задача 3
-- [Скриншот 1](https://github.com/FunUndead/homework_docker_1/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_3_12.png)
-- [Скриншот 2](https://github.com/FunUndead/homework_docker_1/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_3_1_4.png)
+- [Скриншот 1](https://github.com/FunUndead/homework_docker_1/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_3_1_4.png)
     - Контейнер остановился, т.к. через attache мы подключаемся к основному процессу контейнера. После нажатия Ctrl-C процесс завершился.
-- [Скриншот 3](https://github.com/FunUndead/homework_docker_1/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_3_5.png)
-- [Скриншот 4](https://github.com/FunUndead/homework_docker_1/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_3_6.png)
-- [Скриншот 5](https://github.com/FunUndead/homework_docker_1/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_3_7_9.png)
-- [Скриншот 6](https://github.com/FunUndead/homework_docker_1/blob/main/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_3_10.png)
-    - Nginx внутри контейнера теперь слушает на порту 81, но порт проброшен с контейнера на хост как 80→8080.  
+- [Скриншот 2](https://github.com/FunUndead/homework_docker_1/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_3_5.png)
+- [Скриншот 3](https://github.com/FunUndead/homework_docker_1/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_3_6.png)
+- [Скриншот 4](https://github.com/FunUndead/homework_docker_1/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_3_7_9.png)
+- [Скриншот 5](https://github.com/FunUndead/homework_docker_1/blob/main/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_3_10.png)
+    - Nginx внутри контейнера теперь слушает на порту 81, но порт проброшен с контейнера на хост как 80→8080.
+- [Скриншот 6](https://github.com/FunUndead/homework_docker_1/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_3_12.png)
+
 ## Задача 4
+- [Скриншот 1](https://github.com/FunUndead/homework_docker_1/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_4.png)
+
 ## Задача 5
+- [Скриншот 1](https://github.com/FunUndead/homework_docker_1/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_5_1_2.png)
+  - Был запущен файл compose.yaml, потому что согласно документации Docker Compose, файлы с именами compose.yaml и compose.yml имеют приоритет над docker-compose.yaml и docker-compose.yml.
+- [Скриншот 2](https://github.com/FunUndead/homework_docker_1/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_5_4.png)
+- [Скриншот 3](https://github.com/FunUndead/homework_docker_1/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_5_5.png)
+- [Скриншот 4](https://github.com/FunUndead/homework_docker_1/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_5_6.png)
+- [Скриншот 5](https://github.com/FunUndead/homework_docker_1/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_5_7.png)
+  - Docker Compose предупредит, что не найден файл compose.yaml и предложит использовать docker-compose.yaml или создать новый файл. Это демонстрирует механизм fallback между разными именами файлов компоуза. 
+  
 
 
 
